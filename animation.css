@@ -64,7 +64,15 @@
     }
 }
 
-#cover h2.in-view{
+@keyframes projpic {
+    from {
+        height: 0px;
+    } to {
+        height: 500px;
+    }
+}
+
+#cover h2{
     animation: coverh2 1s;
     left:60%;
     opacity: 1;
@@ -103,4 +111,9 @@
 #skill span.bar5.in-view {
     animation: bar5 2s;
     border-right-width: 150px;
+}
+
+#projs .pic.selected{
+    animation: projpic 0.5s;
+    height: 500px;
 }

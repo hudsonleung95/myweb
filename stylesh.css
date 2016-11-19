@@ -87,6 +87,7 @@ h2{
     text-align: left;
     font-size: x-large;
     line-height: 200%;
+    width: 400px;
 }
 
 #exp, #cont{
@@ -107,20 +108,48 @@ h2{
 }
 
 #projs .icon{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: grey;
     border-radius: 100% 100%;
 }
 
 #projs img {
-    width: 80px;
+    width: 60px;
     padding: 20px 20px;
-    filter: grayscale(1);
 }
 
-#projs td:hover{
+#projs  td:hover{
     background-color: white;
+}
+
+#projs{
+    padding: 2% 10%;
+}
+
+#projs .pic{
+    width:100%;
+    height: 0px;
+    opacity: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#projpic.icon1{
+    background-image: url("media/predictor.png");
+}
+
+#projpic.icon2{
+    background-image: url("media/coupletones_pic.png");
+}
+
+#projpic.icon3{
+    background-image: url("media/tripalarm.png");
+}
+
+#projpic.icon4{
+    background-image: url("media/braindomin.png");
 }
 
 #projs span{

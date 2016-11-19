@@ -22,7 +22,7 @@
 
         <div id="cover">
             <img src="media/cover.png" alt="White hexagon with dark background."/>
-            <h2 class="animat">Vision blinds our vision.</h2>
+            <h2>Vision blinds our vision.</h2>
         </div>
 
         <div id="prof">
@@ -30,10 +30,8 @@
                 <tr>
                     <td id="prof_pic"><img src="media/profile.png" alt="My profile picture." /></td>
                     <td id="intro">
-                        Hi! I'm WingHung Leung and here's my profile,<br /><br />
-                        Hobby: Thinking <br />
-                        Movie: Iron Man 2008<br />
-                        Book: A Breif History of Time, Stephen Hawking<br />
+                        Hi! I'm WingHung Leung. <br />
+                        I'm a technology enthusiast that will treasure every opportunity to expand my knowledge base in Computer Science to handle future challenges.<br />
                     </td>
                 </tr>
             </table>
@@ -62,25 +60,32 @@
             <br />
             <hr />
             <br />
-            <h3>Projects</h3> <br />
-            <table id="projs">
-                <tr>
-                    <td class="icon animat">
-                        <img src="media/stock.png" />
-                    </td>
-                    <td class="icon animat">
-                        <img src="media/coupletones.png" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="icon animat">
-                        <img src="media/trip.png" />
-                    </td>
-                    <td class="icon animat">
-                        <img src="media/brain.png" />
-                    </td>
-                </tr>
-            </table>
+
+            <div id="projs">
+                <h3>Projects</h3> <br />
+                <div class="pic animat" id="projpic"></div>
+
+                <table cellspacing="30">
+                    <tr>
+                        <td class="icon animat icon1" onclick="moveIcon(1)">
+                            <img src="media/stock.png" />
+                        </td>
+                        <td class="icon animat icon2" onclick="moveIcon(2)">
+                            <img src="media/coupletones.png" />
+                        </td>
+                        <td class="icon animat icon3" onclick="moveIcon(3)">
+                            <img src="media/trip.png" />
+                        </td>
+                        <td class="icon animat icon4" onclick="moveIcon(4)">
+                            <img src="media/brain.png" />
+                        </td>
+                    </tr>
+                </table>
+                
+
+            </div>
+
+            
             <br />
             <hr />
             <br />
