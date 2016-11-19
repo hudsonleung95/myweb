@@ -1,0 +1,106 @@
+﻿@keyframes coverh2 {
+    from {
+        left: 70%;
+        opacity: 0;
+    } to {
+        left:60%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes blurnshow {
+    from {
+        filter: blur(0);
+    } to {
+        filter: blur(2px);
+    }
+}
+
+@keyframes bar1 {
+    from {
+        border-right-width: 0px
+    } to {
+        border-right-width: 30px
+    }
+}
+
+@keyframes bar2 {
+    from {
+        border-right-width: 0px
+    } to {
+        border-right-width: 60px
+    }
+}
+
+@keyframes bar3 {
+    from {
+        border-right-width: 0px
+    } to {
+        border-right-width: 90px
+    }
+}
+
+@keyframes bar4 {
+    from {
+        border-right-width: 0px
+    } to {
+        border-right-width: 120px
+    }
+}
+
+@keyframes bar5 {
+    from {
+        border-right-width: 0px
+    } to {
+        border-right-width: 150px
+    }
+}
+
+#cover h2.in-view{
+    animation: coverh2 1s;
+    left:60%;
+    opacity: 1;
+}
+
+#exp .in-view{
+    animation: fadein 2s;
+    opacity: 1;
+}
+
+/*bar1*/
+#skill span.bar1.in-view{
+    animation: bar1 2s;
+    border-right-width: 30px;
+}
+
+/*bar2*/
+#skill span.bar2.in-view {
+    animation: bar2 2s;
+    border-right-width: 60px;
+}
+
+/*bar3*/
+#skill span.bar3.in-view{
+    animation: bar3 2s;
+    border-right-width: 90px;
+}
+
+/*bar4*/
+#skill span.bar4.in-view {
+    animation: bar4 2s;
+    border-right-width: 120px;
+}
+
+/*bar5*/
+#skill span.bar5.in-view {
+    animation: bar5 2s;
+    border-right-width: 150px;
+}

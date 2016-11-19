@@ -1,0 +1,165 @@
+﻿html, body { 
+    height:100%;
+    text-align: center;
+}
+
+*{
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+nav {
+    margin:0 auto;
+    position:fixed;
+    top:0;
+    z-index: 50;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px grey;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav li { display:inline-block; }
+
+nav a{
+    padding: 15px 25px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: lightgrey;
+    border-radius: 3px 3px;
+}
+
+hr{ 
+    width: 80%;
+    height: 1px;
+    border: none;
+    background-color: grey;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+#cover{
+    background-color: #1C1C1C;
+    min-height: 100%;
+}
+
+#cover img {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#cover h2{
+    position:absolute;
+    top:60%;
+    color: white;
+    opacity: 0;
+}
+
+#prof{
+    min-height: 100%;
+    padding-top:20px;
+}
+
+#prof td{
+    padding: 25% 100px;
+}
+
+
+#prof img{
+    width:300px;
+    filter: brightness(150%) contrast(80%);
+}
+
+#intro{
+    text-align: left;
+    font-size: x-large;
+    line-height: 200%;
+}
+
+#exp, #cont{
+    clear: both;
+    background-color: #1C1C1C;
+    padding: 20px;
+    color: white;
+}
+
+#exp table, #skill table, #cont table, #prof table{
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#edu td, #job td{
+    padding: 20px 30px;
+}
+
+#projs .icon{
+    width: 120px;
+    height: 120px;
+    background-color: grey;
+    border-radius: 100% 100%;
+}
+
+#projs img {
+    width: 80px;
+    padding: 20px 20px;
+    filter: grayscale(1);
+}
+
+#projs td:hover{
+    background-color: white;
+}
+
+#projs span{
+    position: relative;
+    font-weight: bold;
+    color: black;
+    width: 30%;
+    top: -200px;
+    left: -300px;
+    z-index:10;
+}
+
+#skill {
+    padding: 20px;
+    background-color: white;
+}
+
+#skill td{
+    width: 200px;
+    padding: 20px 20px;
+}
+
+#skill span{
+    left: 0;
+    border-right-style: solid;
+    border-right-color: darkgrey;
+}
+
+#cont{min-height:50%;}
+
+#cont td{
+    padding: 20px 50px;
+}
+
+#cont img{
+    height: 50px;
+}
+
+#cont a{
+    text-decoration: none;
+    color:white;
+}
