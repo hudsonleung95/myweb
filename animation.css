@@ -68,7 +68,7 @@
     from {
         height: 0px;
     } to {
-        height: 500px;
+        height: 700px;
     }
 }
 
@@ -115,5 +115,5 @@
 
 #projs .pic.selected{
     animation: projpic 0.5s;
-    height: 500px;
+    height: 700px;
 }

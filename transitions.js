@@ -2,6 +2,7 @@ var $animation_ele = $('.animat');
 var $icon = $('#projs .icon');
 var $projpic = $('#projs .pic');
 var $window = $(window);
+var prev = '0';
 
 //nav bar, scroll effect
 jQuery(document).ready(function ($) {
@@ -34,43 +35,18 @@ function check_in_view() {
     });
 }
 
-function clearClass() {
-    var pic = document.getElementById('projpic');
-
-    if (pic.classList.contains('icon1'))
-        $projpic.removeClass('icon1');
-
-    if (pic.classList.contains('icon2'))
-        $projpic.removeClass('icon2');
-
-    if (pic.classList.contains('icon3'))
-        $projpic.removeClass('icon3');
-
-    if (pic.classList.contains('icon4'))
-        $projpic.removeClass('icon4');
-}
-
 function showPic(id) {
-    clearClass();
 
-    switch (id) {
-        case 1:
-            $projpic.addClass('icon1');
-            break;
-        case 2:
-            $projpic.addClass('icon2');
-            break;
-        case 3:
-            $projpic.addClass('icon3');
-            break;
-        case 4:
-            $projpic.addClass('icon4');
-            break;
+    if (prev != '0') {
+        $projpic.removeClass(prev);
+        $('#projs .'+prev).removeClass('selected');
     }
 
+    prev = id;
     
-
-    
+    $projpic.addClass(id);
+    $('#projs .' + id).addClass('selected');
+ 
 }
 
 function moveIcon(id) {

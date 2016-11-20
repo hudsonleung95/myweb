@@ -119,8 +119,12 @@ h2{
     padding: 20px 20px;
 }
 
-#projs  td:hover{
+#projs td:hover{
     background-color: white;
+}
+
+#projs .icon.selected{
+    background-color: lightgray;
 }
 
 #projs{
