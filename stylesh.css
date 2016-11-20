@@ -69,8 +69,13 @@ h2{
 }
 
 #prof{
-    min-height: 100%;
-    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#prof table{
+    align-self: center;
 }
 
 #prof td{
